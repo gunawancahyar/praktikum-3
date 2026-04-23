@@ -24,7 +24,7 @@ int main(void) {
 
     srand((unsigned) time(NULL));
 
-    // ✅ BENAR
+    // BENAR
     secret = rand() % (max - min + 1) + min;
 
     printf("\nTebak angka antara %d sampai %d!\n", min, max);
