@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build guess_c",
+      "type": "shell",
+      "command": "gcc",
+      "args": ["-g", "guess_c.c", "-o", "guess_c"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

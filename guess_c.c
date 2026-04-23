@@ -24,6 +24,7 @@ int main(void) {
 
     srand((unsigned) time(NULL));
 
+
     // BENAR
     secret = rand() % (max - min + 1) + min;
 
